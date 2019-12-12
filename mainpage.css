@@ -3,13 +3,7 @@ main{
     height:100%;
     margin:0 auto;
 }
-a{
-    text-decoration:none;
-    color: rgb(180, 180, 180);
-}
-a:hover{
-    color: rgb(182, 228, 255);
-}
+
 .mainTitle{
     padding-top: 170px;
     margin-bottom: 30px;
@@ -32,37 +26,4 @@ a:hover{
 }
 .pageList a{
     display:block;
-}
-#fixedLayer{
-    position:fixed; 
-    width:100%;
-    height: 10px;
-    background-image:linear-gradient(to bottom,rgb(0, 0, 0),rgb(65, 65, 65));
-
-}
-#fixedHeader{
-display : block ;
-}
-#fixedHeader ul{
-    
-    position:fixed; 
-    padding:0;
-    margin: 0;
-    width:100%;
-    height: 40px;
-    color:rgb(108, 141, 160);
-    background-image:linear-gradient(to right,rgb(0, 0, 0),rgb(65, 65, 65));
-
-}
-
-.headMenu li{
-    list-style:none; /* 将默认的列表符号去掉 */
-    padding-left:20px; 
-    padding-top:7px; 
-    font-size: 20px;
-    /*padding-top:20px;  */
-    margin:0; /* 将默认的外边距去掉 */
-    float:left;
-    text-align: center;
-
 }
