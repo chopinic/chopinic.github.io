@@ -11,16 +11,17 @@ a:hover{
     color: rgb(182, 228, 255);
 }
 .mainTitle{
-    padding-top: 150px;
+    padding-top: 170px;
     margin-bottom: 30px;
     width:100%;
-    color:rgb(182, 228, 255);
+    color:rgb(154, 218, 255);
     font-size: 60px;
     text-align: center;
-    height:320px;
-    background-image: url("https://github.com/chopinic/web_resources/blob/master/mainPage/img1.jpg?raw=true");
+    height:300px;
+    background-image: url("https://github.com/chopinic/web_resources/blob/master/mainPage/img1.jpg?raw=true") ;
+    background-size: cover;
     
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Times New Roman",Times,serif;
 }
 .pageList{
     text-align: center;
