@@ -41,7 +41,7 @@ a:hover{
 
 }
 #fixedHeader{
-display : none;
+display : block;
 }
 #fixedHeader ul{
     
