@@ -3,6 +3,13 @@ main{
     height:100%;
     margin:0 auto;
 }
+a{
+    text-decoration:none;
+    color: rgb(180, 180, 180);
+}
+a:hover{
+    color: rgb(182, 228, 255);
+}
 .mainTitle{
     padding-top: 150px;
     margin-bottom: 30px;
