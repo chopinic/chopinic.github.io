@@ -18,7 +18,7 @@ a:hover{
     font-size: 60px;
     text-align: center;
     height:300px;
-    background-image: url("https://github.com/chopinic/web_resources/blob/master/mainPage/img1.jpg?raw=true") ;
+    background-image: url("https://s2.ax1x.com/2019/12/13/Qc0kOf.jpg") ;
     background-size: cover;
     
     font-family: "Times New Roman",Times,serif;
@@ -41,7 +41,7 @@ a:hover{
 
 }
 #fixedHeader{
-display : block;
+display : block ;
 }
 #fixedHeader ul{
     
