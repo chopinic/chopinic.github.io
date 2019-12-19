@@ -1,0 +1,29 @@
+.snow {
+    /* display: none; */
+    /* opacity: 0; */
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 3s;
+    pointer-events: none;
+}
+html{
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg");
+    background-size: cover;
+    width:100%;
+}
+a{
+    text-decoration:none;
+    color: rgba(29, 165, 255);
+}
+a:hover{
+    color: rgba(252, 66, 53 , 0.9);
+}
+.mainTitle{
+    color: rgba(29, 165, 255);
+    background-image: url();
+    /* background-size: cover; */
+
+}
