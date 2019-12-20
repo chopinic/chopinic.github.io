@@ -1,7 +1,21 @@
 html{
-    background-image: url("https://s2.ax1x.com/2019/12/20/QOxsQU.md.jpg");
+    background-image:     
+    /* url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg"); */
+    url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg");
+
     background-size: cover;
 }
 .mainTitle{
-    background-image: url();
+    color: rgb(255, 86, 114);
+    /* font-size: 30px;  */
+    font-family: 'Rubik';
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: .04em;
+    display: block;
+    word-spacing: 3rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    /* background-image: url(); */
+
 }

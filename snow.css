@@ -30,3 +30,16 @@ a:hover{
     /* background-size: cover; */
 
 }
+
+.lovely{
+    color: rgb(255, 86, 114);
+    font-size: 30px; 
+    font-family: 'Rubik';
+    /* font-size: 6rem; */
+    font-weight: 900;
+    letter-spacing: .04em;
+    display: block;
+    word-spacing: 3rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
