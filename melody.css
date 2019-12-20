@@ -7,9 +7,9 @@ html{
 }
 .mainTitle{
     color: rgb(255, 86, 114);
-    font-size: 60px;
+    /* font-size: 60px; */
     font-family: 'Rubik';
-    /* font-size: 6rem; */
+    font-size: 6rem;
     font-weight: 900;
     letter-spacing: .04em;
     display: block;
