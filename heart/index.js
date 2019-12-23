@@ -55,7 +55,7 @@
     }), 2 * commentTime);
   };
 
-  $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\"></pre>\n  <div style = 'position: fixed;left: 30px;bottom: 30px;'>\n    <a id='skipAnimation'>跳过动画</a>\n    <a style='color: #fff' href='http://chopinic.xyz/heart.html'>重新播放</a>\n    <a style='color: #fff' target=\"_blank\" href='https://github.com/idealclover/Love-Gift'>项目地址</a>\n    <a style='color: #fff' target=\"_blank\" href='http://chopinic.xyz/lovelymelody.html'>回到主页</a>\n  </div>");
+  $('body').append("  <style id=\"style-tag\"></style>\n<span id=\"echo\"></span>\n<span id=\"heart\"><i></i></span>\n<pre id=\"style-text\"></pre>\n  <div style = 'position: fixed;left: 30px;bottom: 30px;'>\n    <a id='skipAnimation'>跳过动画</a>\n    <a style='color: #fff' href='http://chopinic.xyz/heart/index.html'>重新播放</a>\n    <a style='color: #fff' target=\"_blank\" href='https://github.com/idealclover/Love-Gift'>项目地址</a>\n    <a style='color: #fff' target=\"_blank\" href='http://chopinic.xyz/lovelymelody.html'>回到主页</a>\n  </div>");
 
   commentTime = 60;
 
