@@ -1,29 +1,25 @@
-html{
-    background-image:     
-    /* url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg"); */
-    url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg");
+html {
+  background-image:     
+    /* url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg"); */ url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg");
 
-    background-size: cover;
+  background-size: cover;
 }
-.mainTitle{
-    color: rgb(194, 35, 35);
-    /* font-size: 60px; */
-    font-family: 'Rubik';
-    font-size: 6rem;
-    font-weight: 900;
-    letter-spacing: .04em;
-    display: block;
-    word-spacing: 3rem;
-    line-height: 1.4;
-    text-transform: uppercase;
-    /* background-image: url(); */
-
+.mainTitle {
+  color: rgb(194, 35, 35);
+  /* font-size: 60px; */
+  font-family: "Rubik";
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  display: block;
+  word-spacing: 3rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  /* background-image: url(); */
 }
-.mainTitle span{
-    color: rgb(51, 112, 54);
+.mainTitle span {
+  color: rgb(51, 112, 54);
 }
-.lovely span
-{
-    color: rgb(51, 112, 54);
-
+.lovely span {
+  color: rgb(51, 112, 54);
 }

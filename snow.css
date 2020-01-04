@@ -1,54 +1,51 @@
 .snow {
-    /* display: none; */
-    /* opacity: 0; */
-    z-index: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: opacity 3s;
-    pointer-events: none;
+  /* display: none; */
+  /* opacity: 0; */
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 3s;
+  pointer-events: none;
 }
-html{
-    /* background-color: rgb(255, 255, 255); */
-    /* background-image: 
+html {
+  /* background-color: rgb(255, 255, 255); */
+  /* background-image: 
     url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg") ;
     background-size: cover ;
     background-repeat:no-repeat; */
-    background-image: 
-    url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg") ;
-    background-size: cover ;
-    height: 100%;
-    background-repeat:no-repeat;
-    width:100%;
+  background-image: url("https://s2.ax1x.com/2019/12/19/QLB0W4.md.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
-body{
-    
+body {
 }
-a{
-    text-decoration:none;
-    /* color: rgba(29, 165, 255); */
-    color:rgba(29, 165, 255);
-    /* rgba(252, 66, 53 , 0.9) */
+a {
+  text-decoration: none;
+  /* color: rgba(29, 165, 255); */
+  color: rgba(29, 165, 255);
+  /* rgba(252, 66, 53 , 0.9) */
 }
-a:hover{
-    color: rgba(252, 66, 53 , 0.9);
+a:hover {
+  color: rgba(252, 66, 53, 0.9);
 }
-.mainTitle{
-    color:rgba(29, 165, 255);
-    background-image: url();
-    /* background-size: cover; */
-
+.mainTitle {
+  color: rgba(29, 165, 255);
+  background-image: url();
+  /* background-size: cover; */
 }
 
-.lovely{
-    color: rgb(194, 35, 35);
-    font-size: 30px; 
-    font-family: 'Rubik';
-    /* font-size: 6rem; */
-    font-weight: 900;
-    letter-spacing: .04em;
-    display: block;
-    word-spacing: 3rem;
-    line-height: 1.4;
-    text-transform: uppercase;
+.lovely {
+  color: rgb(194, 35, 35);
+  font-size: 30px;
+  font-family: "Rubik";
+  /* font-size: 6rem; */
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  display: block;
+  word-spacing: 3rem;
+  line-height: 1.4;
+  text-transform: uppercase;
 }

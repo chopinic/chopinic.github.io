@@ -1,161 +1,170 @@
-html{
-    background-color: rgb(65, 65, 65);
-    width:100%;
-    height: 100%;
-
+html {
+  background-color: rgb(65, 65, 65);
+  width: 100%;
+  height: 100%;
 }
-body{
-    
+body {
 }
-main{
-    width:1000px;
-    height:100%;
-    margin:0 auto;
+main {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
 }
-a{
-    text-decoration:none;
-    color: rgb(180, 180, 180);
+a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
 }
-a:hover{
-    color: rgb(182, 228, 255);
+a:hover {
+  color: rgb(182, 228, 255);
 }
-.box p{
-    padding-bottom: 10pt;
+.box p {
+  padding-bottom: 10pt;
 }
 
-.oriLink{
-    margin : 0; 
-    padding: 0; 
-    font-size:12px; 
-    height:20px;
-    text-align: center;
+.oriLink {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  height: 20px;
+  text-align: center;
 }
 
-.copyright{
-    width: 100%; 
-    text-align: center;
-    bottom:0 ;
-    color: rgb(133, 133, 133);
+.copyright {
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: rgb(133, 133, 133);
 }
 
+.box {
+  /*background-color: rgb(71, 71, 71);*/
+  width: 90%;
+  margin: 0 auto;
+  color: rgb(224, 224, 224);
+  /*font-size:30px;*/
+}
+.title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  color: rgb(182, 228, 255);
+  font-size: 50px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.headImg {
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+#fixedhLayer {
+  position: fixed;
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(65, 65, 65)
+  );
+}
+#fixedHeader {
+  display: block;
+}
+#fixedHeader ul {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  color: rgb(108, 141, 160);
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(65, 65, 65));
+}
 
-.box{
-    /*background-color: rgb(71, 71, 71);*/
-    width:90%;
-    margin: 0 auto;
-    color :rgb(224, 224, 224);
-    /*font-size:30px;*/
+.headMenu li {
+  list-style: none; /* 将默认的列表符号去掉 */
+  padding-left: 20px;
+  padding-top: 7px;
+  font-size: 20px;
+  /*padding-top:20px;  */
+  margin: 0; /* 将默认的外边距去掉 */
+  float: left;
+  text-align: center;
 }
-.title{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    width:100%;
-    color:rgb(182, 228, 255);
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.headImg{
-    background-size:cover;
-    height: 300px;
-    width : 100%;
-    margin-bottom: 50px;
-}
-#fixedhLayer{
-    position:fixed; 
-    width:100%;
-    height: 10px;
-    background-image:linear-gradient(to bottom right,rgb(0, 0, 0),rgb(65, 65, 65));
-
-}
-#fixedHeader{
-display : block ;
-}
-#fixedHeader ul{
-    
-    position:fixed; 
-    padding:0;
-    margin: 0;
-    width:100%;
-    height: 40px;
-    color:rgb(108, 141, 160);
-    background-image:linear-gradient(to right,rgb(0, 0, 0),rgb(65, 65, 65));
-
+#fixedLayer {
+  border: none;
+  float: left;
+  height: 100%;
+  width: 20px;
+  color: rgb(44, 44, 44);
+  display: block;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(65, 65, 65));
+  background-color: rgba(255, 255, 255, 0.685);
+  position: fixed;
 }
 
-.headMenu li{
-    list-style:none; /* 将默认的列表符号去掉 */
-    padding-left:20px; 
-    padding-top:7px; 
-    font-size: 20px;
-    /*padding-top:20px;  */
-    margin:0; /* 将默认的外边距去掉 */
-    float:left;
-    text-align: center;
-
+#fixedBox {
+  position: fixed;
+  float: left;
+  height: 100%;
+  width: 200px;
+  color: rgb(182, 228, 255);
+  display: none;
+  background-color: rgb(31, 31, 31);
+  opacity: 0;
+  /*background-image:linear-gradient(to right,rgb(35, 64, 97),rgba(35, 64, 97,0.8),rgba(65, 65, 65,0.2),rgba(65, 65, 65,0.01));*/
+  /*visibility: hidden;*/
 }
-#fixedLayer { 
-    border:none;
-    float:left;
-    height:100%;
-    width: 20px;
-    color:rgb(44, 44, 44);
-    display: block;
-    background-image:linear-gradient(to right,rgb(0, 0, 0),rgb(65, 65, 65));
-    background-color: rgba(255, 255, 255, 0.685);
-    position:fixed; 
-    
-} 
+#fixedBox ul {
+  margin-top: 150px;
+  font-size: 20px;
+}
+#fixedBox li {
+  margin-top: 30px;
+}
+.imgMid {
+  text-align: center;
+}
+.popUp {
+  animation: sidePop 0.3s forwards;
+}
+.hideDown {
+  animation: sideHide 0.3s forwards;
+}
 
-#fixedBox{
-    position:fixed; 
-    float:left;
-    height:100%;
-    width: 200px;
-    color:rgb(182, 228, 255);
-    display: none;
-    background-color: rgb(31, 31, 31);
+@keyframes sidePop {
+  from {
     opacity: 0;
-    /*background-image:linear-gradient(to right,rgb(35, 64, 97),rgba(35, 64, 97,0.8),rgba(65, 65, 65,0.2),rgba(65, 65, 65,0.01));*/
-        /*visibility: hidden;*/
-}
-#fixedBox ul{
-    margin-top: 150px;
-    font-size: 20px;
-}
-#fixedBox li{
-    margin-top: 30px;
-}
-.imgMid{
-    text-align:center;
-}
-.popUp{
-    animation:sidePop 0.3s forwards;
-}
-.hideDown{
-    animation:sideHide 0.3s forwards;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@keyframes sidePop{
-    from {opacity:0;}
-    to {opacity:1;}
-
+@-webkit-keyframes sidePop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-@-webkit-keyframes sidePop{
-    from {opacity:0;}
-    to {opacity:1;}
-
+@keyframes sideHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
-@keyframes sideHide{
-    from {opacity:1;}
-    to {opacity:0;}
-
-}
-
-@-webkit-keyframes sideHide{
-    from {opacity:1;}
-    to {opacity:0;}
-
+@-webkit-keyframes sideHide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
