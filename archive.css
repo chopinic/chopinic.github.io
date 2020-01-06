@@ -1,0 +1,11 @@
+.archiveList
+{
+    font-size: 30px;
+    color: rgb(182, 228, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.archiveList a{
+    display: block;
+}
