@@ -56,7 +56,7 @@ a:hover {
 }
 .headImg {
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   height: 300px;
   width: 100%;
   margin-bottom: 50px;
