@@ -13,10 +13,10 @@ main {
 }
 a {
   text-decoration: none;
-  color: rgb(180, 180, 180);
+  color:rgb(228, 228, 228);
 }
 a:hover {
-  color: rgb(182, 228, 255);
+  color: rgb(147, 215, 255);
 }
 .box p {
   padding-bottom: 10pt;

@@ -5,10 +5,11 @@ main{
 }
 
 .mainTitle{
+    user-select: none;
     padding-top: 170px;
     margin-bottom: 30px;
     width:100%;
-    color:rgb(94, 196, 255);
+    color:rgb(228, 228, 228);
     font-size: 60px;
     text-align: center;
     height:300px;
